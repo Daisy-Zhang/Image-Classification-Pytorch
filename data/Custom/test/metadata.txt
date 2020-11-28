@@ -1,0 +1,10 @@
+11.png 0
+12.png 1
+13.png 0
+14.png 0
+15.png 0
+16.png 0
+17.png 1
+18.png 1
+19.png 0
+20.png 0
