@@ -25,6 +25,12 @@ def get_model(model_type, use_gpu):
     elif model_type == 'resnet50':
         from models.resnet import resnet50
         model = resnet50()
+    elif model_type == 'resnet18':
+        from models.resnet import resnet18
+        model = resnet18()
+    elif model_type == 'googlenet':
+        from models.googlenet import googlenet
+        model = googlenet()
     else:
         print('this model is not supported')
         sys.exit()
