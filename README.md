@@ -59,6 +59,12 @@ python train.py -model=vgg16 -gpu
 * **-model**: choose one model in /models.
 * **-gpu**: use gpu to train model.
 
+PS: Users can also use following command to get usage:
+
+```python
+python train.py -h
+```
+
 ## test
 
 Users can use following command to evaluate model:
@@ -71,6 +77,12 @@ python -model=vgg16 -weights=YOUR_WEIGHT_PATH -gpu -data_path=YOUR_TEST_DATA_PAT
 * **-weights**: the model weights path.
 * **-gpu**: use gpu to test model.
 * **-data_path**: the test data path. Users can modify the **my_eval()** function in **utils.py** to better test your own test data.
+
+PS: Users can also use following command to get usage:
+
+```python
+python test.py -h
+```
 
 ## others
 
