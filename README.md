@@ -3,19 +3,19 @@ General image classification framework implemented by Pytorch for almost all ima
 
 ## structure
 
-### /checkpoints
+### checkpoints/
 
 This directory will store all models you trained.
 
-### /data
+### data/
 
 Please put all your training or test data in this directory and follow the original directory structure. I provide two kinds of dataset format: Custom and ImageFolder. Users can choose one of them for your convinence. For example, if you want to use ImageFolder, you can put all your training images in **/data/ImageFolder/train** and your test images in **/data/ImageFolder/test**. The further child directory in **/data/ImageFolder/train** is the classes folder of your images, such as **/data/ImageFolder/train/ClassA**...
 
-### /log
+### log/
 
 All log record file will be stored in this directory.
 
-### /models
+### models/
 
 You can put all the network model you design in this directory. I already provide three classic networks: **VGG16**, **ResNet18**,**ResNet50**, **GoogLeNet**.
 
@@ -46,7 +46,7 @@ And do not forget put your images in /data directory following original structur
 
 ## config
 
-Users can change the config setting in **conf.py** as they need, such as IMAGE_SIZE, EPOCH et al.
+Users can change the config setting in **conf.py** as they need, such as IMAGE_SIZE, EPOCH et. al.
 
 ## train
 
